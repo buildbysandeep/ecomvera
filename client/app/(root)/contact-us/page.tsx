@@ -18,7 +18,7 @@ export default function ContactUs() {
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "7579842556",
+        telephone: "7088772184",
         contactType: "customer service",
         areaServed: ["IN", "US"],
         availableLanguage: ["Hindi", "English"],
@@ -26,7 +26,7 @@ export default function ContactUs() {
     ],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Floor No.: 00, Building No.: TEHSIL MORADABAD, C/O SHRI RUDESH KUMAR, OD 040104",
+      streetAddress: "Floor No.: 00, Building No./Flat No.: Tehsil Moradabad",
       addressLocality: "Mohammadpur",
       addressRegion: "Uttar Pradesh",
       postalCode: "244001",
@@ -55,17 +55,16 @@ export default function ContactUs() {
               <div className="">
                 <MapPin className="text-blue-500" />
                 <p className="text-gray-700 mt-2">
-                  Premises Name: C/O Shri Rudesh Kumar Street: OD 040104 Landmark: Panchayat Headquarter Town: Mohammadpur
-                  District: Moradabad State: Uttar Pradesh, 240001
+                  Floor No.: 00, Building No./Flat No.: 00, Prakash Nagar, Moradabad, Uttar Pradesh 244001
                 </p>
               </div>
               <div className="">
                 <Mail className="text-blue-500" />
-                <p className="text-gray-700 mt-2">infoecomvera@gmail.com</p>
+                <p className="text-gray-700 mt-2">info.ecomvera@gmail.com</p>
               </div>
               <div className="">
                 <Phone className="text-blue-500" />
-                <p className="text-gray-700 mt-2">7579842556</p>
+                <p className="text-gray-700 mt-2">+91 0000000000</p>
               </div>
             </div>
 

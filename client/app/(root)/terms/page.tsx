@@ -18,11 +18,7 @@ const Page = () => {
         ) is operated by Ecomvera. The terms "we," "our," and "us" refer to Ecomvera, which is registered at the following
         address:
       </p>
-      <p className="mb-6">
-        Floor No.: 00, Building No./Flat No.: Tehsil Moradabad, Premises Name: C/O Shri Radesh Kumar, Street: OD 040104,
-        Nearest Landmark: Panchayat Headquarter, Locality/Sub-locality: Post Gatora, City/Town/Village: Mohammadpur,
-        District: Moradabad, State: Uttar Pradesh, 240001.
-      </p>
+      <p className="mb-6">Floor No.: 00, Prakash Nager, Moradabad, Uttar Pradesh, 240001</p>
       <p className="mb-6">
         We provide all the information, tools, and services through this website, which are subject to the acceptance of the
         following terms, conditions, policies, and notices.

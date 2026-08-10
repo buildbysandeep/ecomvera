@@ -31,8 +31,8 @@ export default function AboutUs() {
           <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl">The Beginning and Vision</h2>
           <div className="rounded-lg bg-muted/50 p-8">
             <p className="text-center text-lg">
-              Ecomvera was founded on September 24, 2024, by Vikas Yadav. The goal was to create a brand that wasn't just
-              about selling clothes, but offering fashion in a unique way.
+              Ecomvera was founded on September 24, 2024, by Sandeep. The goal was to create a brand that wasn't just about
+              selling clothes, but offering fashion in a unique way.
             </p>
             <p className="mt-4 text-center text-lg">
               We wanted to provide a platform where everyone could freely express their style and wear their confidence.
