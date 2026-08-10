@@ -139,22 +139,22 @@ const Footer = () => {
           <h3 className="font-semibold mt-5">KEEP IN TOUCH</h3>
           <div className="flex space-x-4">
             <div className="flex flex-wrap gap-5">
-              <Link href="https://www.instagram.com/ecomvera/" target="_blank">
+              <Link href="/">
                 <FaInstagram className="text-2xl " />
               </Link>
-              <Link href="https://www.facebook.com/profile.php?id=61565074614724#" target="_blank">
+              <Link href="/">
                 <FaFacebook className="text-2xl " />
               </Link>
-              <Link href="https://www.youtube.com/@Ecomvera" target="_blank">
+              <Link href="/">
                 <FaYoutube className="text-2xl " />
               </Link>
-              <Link href="https://x.com/ecomvera" target="_blank">
+              <Link href="/">
                 <FaTwitter className="text-2xl " />
               </Link>
-              <Link href="https://www.linkedin.com/company/ecomvera/" target="_blank">
+              <Link href="/">
                 <FaLinkedin className="text-2xl " />
               </Link>
-              <Link href="https://in.pinterest.com/ecomvera/" target="_blank">
+              <Link href="/">
                 <FaPinterest className="text-2xl " />
               </Link>
             </div>

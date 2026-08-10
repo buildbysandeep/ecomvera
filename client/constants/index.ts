@@ -44,7 +44,7 @@ export const footer = {
     },
     {
       label: "Blogs",
-      route: "/blogs",
+      route: "/blog",
     },
   ],
   company: [
@@ -104,7 +104,7 @@ export const footer = {
   links: [
     {
       label: "Blog",
-      route: "https://blog.ecomvera.com",
+      route: "/blog",
     },
     {
       label: "Careers",
