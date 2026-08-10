@@ -49,8 +49,12 @@ export const generateFileName = (bytes = 32) => c.randomBytes(bytes).toString("h
 export const createSlug = (name: string) => name.trim().replace(/\s+/g, "-").toLowerCase();
 
 export const getPublicId = (url: string) => {
-  const splitUrl = url.split("/upload/")[1].split("/").slice(1).join("/");
-  return splitUrl.substring(0, splitUrl.lastIndexOf("."));
+  try {
+    const splitUrl = url.split("/upload/")[1].split("/").slice(1).join("/");
+    return splitUrl.substring(0, splitUrl.lastIndexOf("."));
+  } catch {
+    return "";
+  }
 };
 
 export const error = (msg: string) => toast({ title: "Error", description: msg, variant: "destructive" });
