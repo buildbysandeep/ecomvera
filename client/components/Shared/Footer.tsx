@@ -15,7 +15,7 @@ const Footer = () => {
 
   const categoriesData = useMemo(() => categories.map((category) => category.children).flat(), [categories]);
 
-  if (["/sign-in", "/cart", "/checkout", "/payment", "/onboarding"].includes(pathname)) return null;
+  if (["/sign-in", "/cart", "/wishlist", "/checkout", "/payment", "/onboarding"].includes(pathname)) return null;
   // return (
   //   <div className="py-10 px-10 hidden tablet:block laptp:px-20 bg-[--c5] text-[--white]">
   //     <div className="max-w-desktop mx-auto">
@@ -181,8 +181,8 @@ const Footer = () => {
         <p>&copy; {new Date().getFullYear()} Ecomvera. All Rights Reserved. | www.ecomvera.com</p>
         <p>
           A{" "}
-          <Link className="text-[--c2] font-semibold" href={"https://trosoft.in"} target="_blank">
-            Trosoft
+          <Link className="text-[--c2] font-semibold" href={"https://ecomvera.in"} target="_blank">
+            Ecomvera
           </Link>{" "}
           company
         </p>

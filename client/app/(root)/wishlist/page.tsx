@@ -29,15 +29,15 @@ const Page = () => {
         {wishlist.length === 0 || !user ? (
           <div>
             <div className="text-light-1">No items in your wishlist</div>
-            <Image
+            {/* <Image
               src="/assets/wishlist.png"
               alt="empty"
               width={0}
               height={0}
               sizes="100vw"
               className="mx-auto py-16 w-56 tablet:w-64 laptop:w-80"
-            />
-            <div className="flex items-center justify-center py-10">
+            /> */}
+            <div className="flex items-center justify-center mt-[100px]">
               <Button onClick={() => window.location.replace("/")} className="bg-[--c2]">
                 Continue Shopping
               </Button>

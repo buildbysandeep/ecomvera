@@ -65,8 +65,8 @@ const Header = () => {
               onClick={() => setIsSidebarOpen(true)}
             />
             <Link href={"/"} className="z-20 overflow-hidden">
-              {/* <h2 className="text-xl tablet:text-2xl font-bold uppercase tracking-wide">Ecomvera</h2> */}
-              <Image
+              <h2 className="text-xl tablet:text-2xl uppercase tracking-wide py-2.5">Ecomvera</h2>
+              {/* <Image
                 src="/assets/logo_text.png"
                 alt="logo"
                 className="object-cover w-28 mobile:w-32 tablet:w-40 py-1 h-full scale-125 zoom-in-90 transition-transform duration-300"
@@ -74,7 +74,7 @@ const Header = () => {
                 height="0"
                 sizes="100vw"
                 priority
-              />
+              /> */}
             </Link>
 
             {!isCheckoutPage && (

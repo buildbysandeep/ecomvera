@@ -21,11 +21,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Ecomvera",
   description: "Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Ecomvera",
-  icons: {
-    icon: "assets/hindi_logo.png",
-    shortcut: "assets/hindi_logo.png",
-    apple: "assets/hindi_logo.png",
-  },
+  // icons: {
+  //   icon: "assets/hindi_logo.png",
+  //   shortcut: "assets/hindi_logo.png",
+  //   apple: "assets/hindi_logo.png",
+  // },
 };
 
 export default async function RootLayout({

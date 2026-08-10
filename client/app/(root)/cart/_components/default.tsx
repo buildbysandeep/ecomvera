@@ -29,15 +29,15 @@ const DefaultPage = ({
         {cart.length === 0 ? (
           <div>
             <div className="text-light-1">No items in your cart</div>
-            <Image
+            {/* <Image
               src="/assets/cart_bag.png"
               alt="empty"
               width={0}
               height={0}
               sizes="100vw"
               className="mx-auto py-16 w-44 tablet:w-52 laptop:w-64"
-            />
-            <div className="flex items-center justify-center">
+            /> */}
+            <div className="flex items-center justify-center mt-[100px]">
               <Button onClick={() => window.location.replace("/")} className="bg-[--c2]">
                 Continue Shopping
               </Button>

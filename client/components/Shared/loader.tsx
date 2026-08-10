@@ -8,14 +8,14 @@ const Loader = () => {
         <div className={Styles.truckWrapper}>
           <div className={`${Styles.truckBody} relative overflow-hidden`}>
             <Image
-              src="/assets/ecomvera_pattern.png"
+              src="/assets/pattern.png"
               alt="truck"
               width={0}
               height={0}
               sizes="100vw"
               className="w-[78px] h-[94%] ml-[5px]  mt-[2px] absolute left-0"
             />
-            <Image
+            {/* <Image
               src="/assets/logo_text.png"
               alt="truck"
               width={0}
@@ -23,7 +23,7 @@ const Loader = () => {
               sizes="100vw"
               priority
               className="w-[95px] ml-[-4px] mt-4 absolute text-white"
-            />
+            /> */}
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 198 93" className={Styles.trucksvg}>
               <path
                 strokeWidth="3"
