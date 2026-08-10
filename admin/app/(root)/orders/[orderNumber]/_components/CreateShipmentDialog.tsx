@@ -42,7 +42,7 @@ export function CreateShipmentDialog({ order, pickupLocations }: { order: IOrder
       const res = await fetch(
         `/api/shipment/courier-list?p_pin=${w_pincode}&d_pin=${d_pincode}&dm=e&pm=${
           p_type === "PREPAID" ? "pre-paid" : "cod"
-        }&sv=${s_value}&w=${weight}&bl=${length}&bw=${width}&bh=${height}`
+        }&sv=${s_value}&w=${weight}&bl=${length}&bw=${width}&bh=${height}`,
       ).then((res) => res.json());
       setIsLoading(false);
 
@@ -98,7 +98,7 @@ export function CreateShipmentDialog({ order, pickupLocations }: { order: IOrder
         weight: weight,
       },
     }),
-    [w_pincode, length, width, height, weight]
+    [w_pincode, length, width, height, weight],
   );
 
   const handleCreateShipment = async (cp: any) => {
@@ -131,9 +131,9 @@ export function CreateShipmentDialog({ order, pickupLocations }: { order: IOrder
           Create Shipment
         </Button>
       </DialogTrigger>
-      <DialogContent className="p-4">
+      <DialogContent className="p-4 cursor-not-allowed">
         <DialogHeader>
-          <DialogTitle>Find courier partner</DialogTitle>
+          <DialogTitle>Find courier partner (Not Configured)</DialogTitle>
           <DialogDescription>Enter shipment details</DialogDescription>
         </DialogHeader>
         <div className="flex flex-col gap-4">
