@@ -316,13 +316,13 @@ export default function SellerRegistration() {
               />
             </div>
 
-            <Button type="submit" className="w-full bg-[--c2] hover:bg-[--c3]" disabled={isLoading}>
+            <Button type="submit" className="w-full bg-[--c2] hover:bg-[--c3]" disabled={true || isLoading}>
               {isLoading ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" /> Submitting...
                 </>
               ) : (
-                "Submit Application"
+                "Submit Application (Not working) "
               )}
             </Button>
           </form>
