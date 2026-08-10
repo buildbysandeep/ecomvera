@@ -36,13 +36,14 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const res = await sendOTP(otp, phone);
+    // const res = await sendOTP(otp, phone);
 
-    if (!res.ok) {
-      return NextResponse.json(res);
-    }
+    // if (!res.ok) {
+    //   return NextResponse.json(res);
+    // }
 
-    return NextResponse.json({ ...res, onBoarded: user.onBoarded });
+    // sending temporary otp
+    return NextResponse.json({ ok: true, otp, onBoarded: user.onBoarded });
   } catch (error) {
     console.log(error);
     return NextResponse.json({ ok: false, error: "Something went wrong" });

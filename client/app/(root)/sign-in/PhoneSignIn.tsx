@@ -71,6 +71,12 @@ const PhoneSignIn = ({
         title: "OTP Sent",
         description: "Please check your phone for the OTP",
       });
+
+      toast({
+        title: "Dummy OTP",
+        description: `OTP: ${resJson.otp}`,
+        variant: "success",
+      });
     } catch (error) {
       setIsLoading(false);
       toast({
