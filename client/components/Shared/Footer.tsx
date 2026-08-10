@@ -59,27 +59,27 @@ const Footer = () => {
 
   //       <div className="text-center pt-20 flex flex-col">
   //         <div className="flex justify-center gap-5 pt-5">
-  //           <Link href="https://www.instagram.com/silkyester/" target="_blank">
+  //           <Link href="https://www.instagram.com/ecomvera/" target="_blank">
   //             <FaInstagram className="text-2xl text-[--c1]" />
   //           </Link>
   //           <Link href="https://www.facebook.com/profile.php?id=61565074614724#" target="_blank">
   //             <FaFacebook className="text-2xl text-[--c1]" />
   //           </Link>
-  //           <Link href="https://www.youtube.com/@Silkyester" target="_blank">
+  //           <Link href="https://www.youtube.com/@Ecomvera" target="_blank">
   //             <FaYoutube className="text-2xl text-[--c1]" />
   //           </Link>
-  //           <Link href="https://x.com/silkyester" target="_blank">
+  //           <Link href="https://x.com/ecomvera" target="_blank">
   //             <FaTwitter className="text-2xl text-[--c1]" />
   //           </Link>
-  //           <Link href="https://www.linkedin.com/company/silkyester/" target="_blank">
+  //           <Link href="https://www.linkedin.com/company/ecomvera/" target="_blank">
   //             <FaLinkedin className="text-2xl text-[--c1]" />
   //           </Link>
-  //           <Link href="https://in.pinterest.com/silkyester/" target="_blank">
+  //           <Link href="https://in.pinterest.com/ecomvera/" target="_blank">
   //             <FaPinterest className="text-2xl text-[--c1]" />
   //           </Link>
   //         </div>
   //         <p className="text-xs tablet:text-sm text-light-4 py-5">
-  //           © 2025 Silkyester. All Rights Reserved. | www.silkyester.com
+  //           © 2025 Ecomvera. All Rights Reserved. | www.ecomvera.com
   //         </p>
   //       </div>
   //     </div>
@@ -125,8 +125,7 @@ const Footer = () => {
             <div className="flex items-start gap-3">
               <Image src="/assets/icons/original.png" width={200} height={200} alt="logo" className="w-[50px]" />
               <p>
-                <span className="font-semibold text-black">100% ORIGINAL</span> guarantee for <br /> all products at
-                Silkyester
+                <span className="font-semibold text-black">100% ORIGINAL</span> guarantee for <br /> all products at Ecomvera
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -140,22 +139,22 @@ const Footer = () => {
           <h3 className="font-semibold mt-5">KEEP IN TOUCH</h3>
           <div className="flex space-x-4">
             <div className="flex flex-wrap gap-5">
-              <Link href="https://www.instagram.com/silkyester/" target="_blank">
+              <Link href="https://www.instagram.com/ecomvera/" target="_blank">
                 <FaInstagram className="text-2xl " />
               </Link>
               <Link href="https://www.facebook.com/profile.php?id=61565074614724#" target="_blank">
                 <FaFacebook className="text-2xl " />
               </Link>
-              <Link href="https://www.youtube.com/@Silkyester" target="_blank">
+              <Link href="https://www.youtube.com/@Ecomvera" target="_blank">
                 <FaYoutube className="text-2xl " />
               </Link>
-              <Link href="https://x.com/silkyester" target="_blank">
+              <Link href="https://x.com/ecomvera" target="_blank">
                 <FaTwitter className="text-2xl " />
               </Link>
-              <Link href="https://www.linkedin.com/company/silkyester/" target="_blank">
+              <Link href="https://www.linkedin.com/company/ecomvera/" target="_blank">
                 <FaLinkedin className="text-2xl " />
               </Link>
-              <Link href="https://in.pinterest.com/silkyester/" target="_blank">
+              <Link href="https://in.pinterest.com/ecomvera/" target="_blank">
                 <FaPinterest className="text-2xl " />
               </Link>
             </div>
@@ -179,7 +178,7 @@ const Footer = () => {
       <Separator className="my-6" />
 
       <div className="flex flex-col md:flex-row justify-between text-sm text-gray-600">
-        <p>&copy; {new Date().getFullYear()} Silkyester. All Rights Reserved. | www.silkyester.com</p>
+        <p>&copy; {new Date().getFullYear()} Ecomvera. All Rights Reserved. | www.ecomvera.com</p>
         <p>
           A{" "}
           <Link className="text-[--c2] font-semibold" href={"https://trosoft.in"} target="_blank">

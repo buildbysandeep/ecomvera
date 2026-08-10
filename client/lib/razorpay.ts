@@ -41,9 +41,9 @@ export const razorpayPayment = async ({
       key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
       amount: res.data.amount,
       currency: "INR",
-      name: "Silkyester",
+      name: "Ecomvera",
       description: "Payment for order " + orderNo,
-      image: "https://www.silkyester.com/favicon.ico",
+      image: "https://www.ecomvera.com/favicon.ico",
       order_id: res.data.id,
       modal: {
         ondismiss: async function () {

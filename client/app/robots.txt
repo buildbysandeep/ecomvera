@@ -1,4 +1,4 @@
-﻿#  Silkyester Robots.txt File  
+﻿#  Ecomvera Robots.txt File  
 
 
 User-agent: *
@@ -41,4 +41,4 @@ Disallow: /backend
 Disallow: /settings
 
 
-Sitemap: https://silkyester.com/sitemap.xml
+Sitemap: https://ecomvera.com/sitemap.xml

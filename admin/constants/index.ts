@@ -26,6 +26,11 @@ export const sidebarLinks = [
     label: "Home",
   },
   {
+    icon: ChartBarStacked,
+    route: "/categories",
+    label: "Categories",
+  },
+  {
     icon: PackagePlus,
     route: "/add-product",
     label: "Add Product",
@@ -34,11 +39,6 @@ export const sidebarLinks = [
     icon: PackageSearch,
     route: "/products",
     label: "Products",
-  },
-  {
-    icon: ChartBarStacked,
-    route: "/categories",
-    label: "Categories",
   },
   {
     icon: Package,

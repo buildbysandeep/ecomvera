@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Silkyester | Privacy Policy",
+  title: "Ecomvera | Privacy Policy",
   alternates: {
-    canonical: "https://www.silkyester.com/privacy-policy",
+    canonical: "https://www.ecomvera.com/privacy-policy",
   },
 };
 
@@ -10,7 +10,7 @@ const Page = () => {
     <div className="max-w-laptop mx-auto p-6 my-10 select-text">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
       <p className="mb-6">
-        Silkyester ("we," "our," "us") respects the privacy of our customers and website users ("you"). This privacy policy
+        Ecomvera ("we," "our," "us") respects the privacy of our customers and website users ("you"). This privacy policy
         explains how we collect, use, share, and safeguard your information. Our goal is to ensure the security and
         confidentiality of your personal data.
       </p>
@@ -79,8 +79,8 @@ const Page = () => {
         </ul>
         <p className="mb-4">
           For such requests, email us at{" "}
-          <a href="mailto:privacypolicy@silkyester.com" className="text-blue-600 hover:underline">
-            privacypolicy@silkyester.com
+          <a href="mailto:privacypolicy@ecomvera.com" className="text-blue-600 hover:underline">
+            privacypolicy@ecomvera.com
           </a>
           .
         </p>
@@ -106,8 +106,8 @@ const Page = () => {
         <p className="mb-4">For any concerns or complaints regarding data usage, please contact our privacy officer:</p>
         <p className="mb-4">
           Email:{" "}
-          <a href="mailto:privacypolicy@silkyester.com" className="text-blue-600 hover:underline">
-            privacypolicy@silkyester.com
+          <a href="mailto:privacypolicy@ecomvera.com" className="text-blue-600 hover:underline">
+            privacypolicy@ecomvera.com
           </a>
         </p>
       </section>

@@ -47,9 +47,9 @@ export async function POST(req: NextRequest) {
     // Send email with better template
     await sendEmail({
       to: email,
-      subject: "Reset Your Silkyester Password",
+      subject: "Reset Your Ecomvera Password",
       text: `
-      You requested a password reset for your Silkyester account.
+      You requested a password reset for your Ecomvera account.
       Click the link below to reset your password:
       ${resetUrl}
       This link will expire in 1 hour.
@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 5px;">
         <div style="text-align: center; margin-bottom: 20px;">
           <h1 style="color: #333; margin-bottom: 10px;">Reset Your Password</h1>
-          <p style="color: #666; font-size: 16px;">You requested a password reset for your Silkyester account</p>
+          <p style="color: #666; font-size: 16px;">You requested a password reset for your Ecomvera account</p>
         </div>
         
         <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; text-align: center; margin-bottom: 20px;">
@@ -74,7 +74,7 @@ export async function POST(req: NextRequest) {
         <p style="color: #666; font-size: 14px; margin-top: 20px;">If you didn't request this password reset, you can safely ignore this email.</p>
         
         <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0e0e0;">
-          <p style="color: #999; font-size: 12px;">© ${new Date().getFullYear()} Silkyester. All rights reserved.</p>
+          <p style="color: #999; font-size: 12px;">© ${new Date().getFullYear()} Ecomvera. All rights reserved.</p>
         </div>
 
         <p style="color: #666; font-size: 10px; margin-top: 20px;">If you want to unsubscribe from these emails, please click <a href="${unsubscribeUrl}">here</a></p>

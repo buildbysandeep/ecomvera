@@ -15,7 +15,7 @@ export const createSellerEmailTemplate = (data: {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>New Seller Registration - Silkyester</title>
+  <title>New Seller Registration - Ecomvera</title>
 </head>
 <body style="margin: 0; padding: 20px; font-family: Arial, sans-serif; background-color: #f8fafc;">
   <div style="max-width: 600px; margin: 0 auto; background-color: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
@@ -74,7 +74,7 @@ export const createSellerEmailTemplate = (data: {
             <div style="background-color: #e2e8f0; color: #1e293b; padding: 4px 12px; border-radius: 20px; font-size: 14px; margin-right: 8px;">
               ${category.replace(/([A-Z])/g, " $1").trim()}
             </div>
-          `
+          `,
             )
             .join("")}
           ${
@@ -119,9 +119,9 @@ export const createSellerEmailTemplate = (data: {
     <!-- Footer -->
     <div style="padding: 24px; background-color: #f1f5f9; border-radius: 0 0 8px 8px; 
                 text-align: center; font-size: 12px; color: #64748b;">
-      <p style="margin: 0;">Silkyester Marketplace<br>
+      <p style="margin: 0;">Ecomvera Marketplace<br>
         Gayatri Nagar, Linepar, Moradabad, Uttar Pradesh 244001<br>
-        © ${new Date().getFullYear()} Silkyester. All rights reserved.</p>
+        © ${new Date().getFullYear()} Ecomvera. All rights reserved.</p>
     </div>
   </div>
 </body>

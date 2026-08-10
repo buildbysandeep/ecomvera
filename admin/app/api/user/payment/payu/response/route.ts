@@ -11,7 +11,7 @@ export async function POST(req: Request) {
   // // Your PayU merchant key & salt
   // const merchantKey = process.env.PAYU_MERCHANT_KEY!;
   // const merchantSalt = process.env.PAYU_MERCHANT_SALT!;
-  const url = process.env.NODE_ENV === "development" ? "http://localhost:3011" : "https://silkyester.com";
+  const url = process.env.NODE_ENV === "development" ? "http://localhost:3011" : "https://ecomvera.com";
 
   if (!payuData.hash || !payuData.status || !payuData.txnid) {
     console.log("❌ Invalid Response from PayU");

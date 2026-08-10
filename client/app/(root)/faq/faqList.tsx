@@ -9,27 +9,27 @@ const faqs = [
     category: "Order & Shopping",
     questions: [
       {
-        q: "How can I place an order on Silkyester?",
+        q: "How can I place an order on Ecomvera?",
         a: (
           <>
             You can visit our website{" "}
-            <Link href="https://www.silkyester.com" className="underline text-[--c3]" target="_blank">
-              www.silkyester.com
+            <Link href="https://www.ecomvera.com" className="underline text-[--c3]" target="_blank">
+              www.ecomvera.com
             </Link>
             , select your preferred clothing items, add them to your cart, and complete the purchase by making the payment.
           </>
         ),
       },
       {
-        q: "Are Silkyester clothes available for all age groups?",
+        q: "Are Ecomvera clothes available for all age groups?",
         a: "Yes, we offer a wide range of fashionable and comfortable clothing for men, women, and children.",
       },
       {
-        q: "What is the price range of Silkyester clothing?",
+        q: "What is the price range of Ecomvera clothing?",
         a: "Our clothing is affordable and budget-friendly. You can check different price ranges and offers on our website.",
       },
       {
-        q: "Does Silkyester offer discounts or promotions?",
+        q: "Does Ecomvera offer discounts or promotions?",
         a: "Yes, we provide discounts and special offers from time to time. Visit our website regularly to stay updated on our latest collections and exclusive deals.",
       },
       {
@@ -50,7 +50,7 @@ const faqs = [
         a: "Yes, once your order is shipped, you will receive a tracking link via SMS and email.",
       },
       {
-        q: "Does Silkyester offer international delivery?",
+        q: "Does Ecomvera offer international delivery?",
         a: "Currently, we deliver only within India, but we plan to start international shipping soon.",
       },
       {
@@ -101,17 +101,17 @@ const faqs = [
     category: "General",
     questions: [
       {
-        q: "What fabric is used in Silkyester clothing?",
+        q: "What fabric is used in Ecomvera clothing?",
         a: "We use premium quality, 100% Made in India fabric, which is comfortable and durable.",
       },
       { q: "Are gift cards or vouchers available?", a: "Not yet, but we plan to introduce gift vouchers soon." },
       {
-        q: "Does Silkyester have offline stores?",
+        q: "Does Ecomvera have offline stores?",
         a: "Currently, we operate only online, but offline stores may be launched in the future.",
       },
       {
-        q: "How can I contact Silkyester?",
-        a: "You can visit our 'Contact Us' page on our website or email us at support@silkyester.com.",
+        q: "How can I contact Ecomvera?",
+        a: "You can visit our 'Contact Us' page on our website or email us at support@ecomvera.com.",
       },
     ],
   },
@@ -119,16 +119,16 @@ const faqs = [
     category: "FAQs About My Account",
     questions: [
       {
-        q: "What are the benefits of creating an account on Silkyester?",
+        q: "What are the benefits of creating an account on Ecomvera?",
         a: "By creating an account, you can track your orders, easily process returns and exchanges, save addresses and payment details, and receive exclusive offers.",
       },
       {
-        q: "How do I create an account on Silkyester?",
+        q: "How do I create an account on Ecomvera?",
         a: (
           <>
             Visit our website{" "}
-            <Link href="https://www.silkyester.com" target="_blank" className="underline text-[--c3]">
-              www.silkyester.com
+            <Link href="https://www.ecomvera.com" target="_blank" className="underline text-[--c3]">
+              www.ecomvera.com
             </Link>
             , click on the "Sign Up" button, enter your mobile number, and log in using the OTP sent to your phone.
           </>
@@ -136,11 +136,11 @@ const faqs = [
       },
       {
         q: "Can I place an order without creating an account?",
-        a: "No, you need to create an account to place an order on Silkyester. This allows you to track your orders and access better services.",
+        a: "No, you need to create an account to place an order on Ecomvera. This allows you to track your orders and access better services.",
       },
       {
         q: "What should I do if I forget my password?",
-        a: "Silkyester does not require a password. You can log in using an OTP sent to your registered mobile number. If you don’t receive the OTP, try again after some time or contact our support team.",
+        a: "Ecomvera does not require a password. You can log in using an OTP sent to your registered mobile number. If you don’t receive the OTP, try again after some time or contact our support team.",
       },
       {
         q: "Can I update my account details?",
@@ -151,15 +151,15 @@ const faqs = [
         a: (
           <>
             If you wish to delete your account, email us at{" "}
-            <Link href="mailto:support@silkyester.com" className="underline text-[--c3]" target="_blank">
-              support@silkyester.com
+            <Link href="mailto:support@ecomvera.com" className="underline text-[--c3]" target="_blank">
+              support@ecomvera.com
             </Link>
             , and we will process your request.
           </>
         ),
       },
       {
-        q: "Is my personal data safe with Silkyester?",
+        q: "Is my personal data safe with Ecomvera?",
         a: "Yes, we use advanced security systems to protect your data and never share your information with third parties.",
       },
       {
@@ -171,7 +171,7 @@ const faqs = [
         a: "Yes, you can view all your previous orders in the My Orders section under My Account.",
       },
       {
-        q: "Will Silkyester send me order updates?",
+        q: "Will Ecomvera send me order updates?",
         a: "Yes, we send order updates via SMS and WhatsApp to your registered mobile number.",
       },
     ],

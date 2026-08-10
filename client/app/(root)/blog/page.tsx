@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Blog | Silkyester",
+  title: "Blog | Ecomvera",
   alternates: {
-    canonical: "https://www.silkyester.com/blog",
+    canonical: "https://www.ecomvera.com/blog",
   },
 };
 

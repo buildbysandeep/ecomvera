@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Silkyester | Terms",
-  description: "Silkyester Terms and Conditions",
+  title: "Ecomvera | Terms",
+  description: "Ecomvera Terms and Conditions",
 };
 
 const Page = () => {
@@ -12,11 +12,11 @@ const Page = () => {
       <h1 className="text-3xl font-bold text-center mb-6">Terms of Service</h1>
       <p className="mb-6">
         This website (
-        <a href="https://www.silkyester.com" className="text-blue-600 hover:underline">
-          www.silkyester.com
+        <a href="https://www.ecomvera.com" className="text-blue-600 hover:underline">
+          www.ecomvera.com
         </a>
-        ) is operated by Silkyester. The terms "we," "our," and "us" refer to Silkyester, which is registered at the
-        following address:
+        ) is operated by Ecomvera. The terms "we," "our," and "us" refer to Ecomvera, which is registered at the following
+        address:
       </p>
       <p className="mb-6">
         Floor No.: 00, Building No./Flat No.: Tehsil Moradabad, Premises Name: C/O Shri Radesh Kumar, Street: OD 040104,
@@ -371,8 +371,8 @@ const Page = () => {
         <p className="mb-4">If you have any questions or concerns about our terms of service, please contact us at:</p>
         <p className="mb-4">
           Email:{" "}
-          <Link className="text-blue-600 hover:underline" href="mailto:policy@silkyester.com">
-            policy@silkyester.com
+          <Link className="text-blue-600 hover:underline" href="mailto:policy@ecomvera.com">
+            policy@ecomvera.com
           </Link>
         </p>
       </section>

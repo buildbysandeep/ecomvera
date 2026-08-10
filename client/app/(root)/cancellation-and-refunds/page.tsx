@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Refund Policy | Silkyester",
+  title: "Refund Policy | Ecomvera",
   alternates: {
-    canonical: "https://www.silkyester.com/cancellation-refunds",
+    canonical: "https://www.ecomvera.com/cancellation-refunds",
   },
 };
 
@@ -14,7 +14,7 @@ export default function RefundPolicy() {
         {/* Refund Introduction */}
         <section className="mb-10">
           <p className="text-gray-700 mb-4">
-            At <span className="font-semibold">Silkyester</span>, we strive to provide the best-quality products to our
+            At <span className="font-semibold">Ecomvera</span>, we strive to provide the best-quality products to our
             customers. However, if you are not completely satisfied with your purchase or have received a damaged or
             incorrect product, you can apply for a refund as per the guidelines below.
           </p>
@@ -47,8 +47,8 @@ export default function RefundPolicy() {
           <ol className="list-decimal list-inside space-y-2 text-gray-700">
             <li>
               Log in to your account on{" "}
-              <a href="https://www.silkyester.com" className="text-blue-600 hover:underline">
-                www.silkyester.com
+              <a href="https://www.ecomvera.com" className="text-blue-600 hover:underline">
+                www.ecomvera.com
               </a>
               .
             </li>

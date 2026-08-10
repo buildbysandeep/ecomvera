@@ -43,7 +43,7 @@ export class Shiprocket {
             "Content-Type": "application/json",
             Authorization: `Bearer ${Shiprocket.token}`,
           },
-        }
+        },
       ).then((res) => res.json());
 
       if (res.status_code === 401) {
@@ -218,7 +218,7 @@ export class Shiprocket {
           status: "CANCELLED",
           shipmentId: null,
           cancelledAt: new Date(),
-          cancelledBy: "Silkyester",
+          cancelledBy: "Ecomvera",
         },
       });
 

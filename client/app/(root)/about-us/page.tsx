@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "About Us | Silkyester",
+  title: "About Us | Ecomvera",
   alternates: {
-    canonical: "https://www.silkyester.com/about-us",
+    canonical: "https://www.ecomvera.com/about-us",
   },
 };
 
@@ -20,7 +20,7 @@ export default function AboutUs() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-[--c2]">Our Story</h1>
-            <p className="max-w-[700px] text-xl text-muted-foreground md:text-2xl">The Journey of Silkyester</p>
+            <p className="max-w-[700px] text-xl text-muted-foreground md:text-2xl">The Journey of Ecomvera</p>
           </div>
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function AboutUs() {
           <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl">The Beginning and Vision</h2>
           <div className="rounded-lg bg-muted/50 p-8">
             <p className="text-center text-lg">
-              Silkyester was founded on September 24, 2024, by Vikas Yadav. The goal was to create a brand that wasn't just
+              Ecomvera was founded on September 24, 2024, by Vikas Yadav. The goal was to create a brand that wasn't just
               about selling clothes, but offering fashion in a unique way.
             </p>
             <p className="mt-4 text-center text-lg">
@@ -46,13 +46,13 @@ export default function AboutUs() {
       {/* Collections */}
       <section className="container space-y-8 py-12 md:py-16 lg:py-20">
         <div className="mx-auto max-w-[800px] space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">The Best Collections at Silkyester</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">The Best Collections at Ecomvera</h2>
           <p className="text-muted-foreground">Discover curated collections for every need and occasion</p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2">
           <Card className="border border-primary/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-2xl">Silkyester</CardTitle>
+              <CardTitle className="text-2xl">Ecomvera</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-base">
@@ -105,7 +105,7 @@ export default function AboutUs() {
         </div>
         <div className="mx-auto max-w-[800px] rounded-lg bg-muted/50 p-8 pt-8 text-center">
           <p className="text-lg">
-            At Silkyester, we make every shopping experience special. Our platform is designed to bring you trendy, stylish,
+            At Ecomvera, we make every shopping experience special. Our platform is designed to bring you trendy, stylish,
             and affordable fashion effortlessly.
           </p>
           <p className="pt-4 text-lg">
@@ -123,7 +123,7 @@ export default function AboutUs() {
           <div className="rounded-xl bg-primary/10 p-12 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Vision</h2>
             <p className="mt-6 text-xl font-medium">
-              Our dream is to make Silkyester a premium and trusted fashion brand in India and globally.
+              Our dream is to make Ecomvera a premium and trusted fashion brand in India and globally.
             </p>
             {/* <div className="pt-8">
               <Button asChild size="lg" className="bg-[--c2] hover:bg-[--c3] text-white">

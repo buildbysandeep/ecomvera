@@ -67,44 +67,44 @@ const SideBar = () => {
 
             <div className="text-sm text-muted-foreground mt-2">Social Media</div>
             <div className="flex justify-between w-full p-2">
-              <Link href="https://www.instagram.com/silkyester/" target="_blank">
+              <Link href="https://www.instagram.com/ecomvera/" target="_blank">
                 <FaInstagram className="text-2xl text-[--c3]" />
               </Link>
               <Link href="https://www.facebook.com/profile.php?id=61565074614724#" target="_blank">
                 <FaFacebook className="text-2xl text-[--c3]" />
               </Link>
-              <Link href="https://www.youtube.com/@Silkyester" target="_blank">
+              <Link href="https://www.youtube.com/@Ecomvera" target="_blank">
                 <FaYoutube className="text-2xl text-[--c3]" />
               </Link>
-              <Link href="https://x.com/silkyester" target="_blank">
+              <Link href="https://x.com/ecomvera" target="_blank">
                 <FaTwitter className="text-2xl text-[--c3]" />
               </Link>
-              <Link href="https://www.linkedin.com/company/silkyester/" target="_blank">
+              <Link href="https://www.linkedin.com/company/ecomvera/" target="_blank">
                 <FaLinkedin className="text-2xl text-[--c3]" />
               </Link>
-              <Link href="https://in.pinterest.com/silkyester/" target="_blank">
+              <Link href="https://in.pinterest.com/ecomvera/" target="_blank">
                 <FaPinterest className="text-2xl text-[--c3]" />
               </Link>
             </div>
 
             <div className="text-sm text-muted-foreground mt-2">Help</div>
             <div className="flex flex-col">
-              <Link href={"https://www.silkyester.com/faq"} className="flex gap-3 p-2">
+              <Link href={"https://www.ecomvera.com/faq"} className="flex gap-3 p-2">
                 <div className="text-sm font-semibold">FAQs</div>
               </Link>
-              <Link href={"https://www.silkyester.com/contact-us"} className="flex gap-3 p-2">
+              <Link href={"https://www.ecomvera.com/contact-us"} className="flex gap-3 p-2">
                 <div className="text-sm font-semibold">Contact Us</div>
               </Link>
-              <Link href={"https://www.silkyester.com/privacy-policy"} className="flex gap-3 p-2">
+              <Link href={"https://www.ecomvera.com/privacy-policy"} className="flex gap-3 p-2">
                 <div className="text-sm font-semibold">Privacy Policy</div>
               </Link>
-              <Link href={"https://www.silkyester.com/shipping-and-returns"} className="flex gap-3 p-2">
+              <Link href={"https://www.ecomvera.com/shipping-and-returns"} className="flex gap-3 p-2">
                 <div className="text-sm font-semibold">Shipping & Returns</div>
               </Link>
-              <Link href={"https://www.silkyester.com/terms-and-conditions"} className="flex gap-3 p-2">
+              <Link href={"https://www.ecomvera.com/terms-and-conditions"} className="flex gap-3 p-2">
                 <div className="text-sm font-semibold">Terms & Conditions</div>
               </Link>
-              <Link href={"https://www.silkyester.com/cancellation-and-refunds"} className="flex gap-3 p-2">
+              <Link href={"https://www.ecomvera.com/cancellation-and-refunds"} className="flex gap-3 p-2">
                 <div className="text-sm font-semibold">Cancellation & Refunds</div>
               </Link>
             </div>

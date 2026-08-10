@@ -8,7 +8,7 @@ const Loader = () => {
         <div className={Styles.truckWrapper}>
           <div className={`${Styles.truckBody} relative overflow-hidden`}>
             <Image
-              src="/assets/silkyester_pattern.png"
+              src="/assets/ecomvera_pattern.png"
               alt="truck"
               width={0}
               height={0}

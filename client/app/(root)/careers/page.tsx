@@ -12,9 +12,9 @@ import { Loader2 } from "lucide-react";
 import { toast } from "@/components/ui/use-toast";
 
 // export const metadata = {
-//   title: "Careers | Silkyester",
+//   title: "Careers | Ecomvera",
 //   alternates: {
-//     canonical: "https://www.silkyester.com/careers",
+//     canonical: "https://www.ecomvera.com/careers",
 //   },
 // };
 

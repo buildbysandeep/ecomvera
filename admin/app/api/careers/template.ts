@@ -50,8 +50,8 @@ export const createEmailTemplate = (application: { fullName: string; email: stri
 
     <!-- Footer -->
     <div style="margin-top: 30px; text-align: center; color: #6b7280; font-size: 0.875rem;">
-      <p style="margin: 0;">Best regards,<br>Silkyester</p>
-      <p style="margin: 15px 0 0 0;">© ${new Date().getFullYear()} Silkyester. All rights reserved.</p>
+      <p style="margin: 0;">Best regards,<br>Ecomvera</p>
+      <p style="margin: 15px 0 0 0;">© ${new Date().getFullYear()} Ecomvera. All rights reserved.</p>
     </div>
   </div>
 </body>

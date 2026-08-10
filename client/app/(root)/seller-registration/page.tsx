@@ -1,7 +1,7 @@
 // export const metadata = {
-//   title: "Become a Seller | Silkyester",
+//   title: "Become a Seller | Ecomvera",
 //   alternates: {
-//     canonical: "https://www.silkyester.com/seller-registration",
+//     canonical: "https://www.ecomvera.com/seller-registration",
 //   },
 // };
 
@@ -125,7 +125,7 @@ export default function SellerRegistration() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">Become a Seller on Silkyester</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">Become a Seller on Ecomvera</h1>
 
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 bg-white p-8 rounded-lg shadow">
@@ -253,10 +253,10 @@ export default function SellerRegistration() {
                             {category === "men"
                               ? "Men's Clothing"
                               : category === "women"
-                              ? "Women's Clothing"
-                              : category === "accessories"
-                              ? "Accessories"
-                              : "Others"}
+                                ? "Women's Clothing"
+                                : category === "accessories"
+                                  ? "Accessories"
+                                  : "Others"}
                           </Label>
                         </div>
                       ))}

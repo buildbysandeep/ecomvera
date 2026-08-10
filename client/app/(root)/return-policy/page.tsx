@@ -1,9 +1,9 @@
 const Page = () => {
   return (
     <div className="max-w-laptop mx-auto p-6 my-10 select-text">
-      <h1 className="text-3xl font-bold text-center mb-6">Silkyester 24-Hour Return & Exchange Policy</h1>
+      <h1 className="text-3xl font-bold text-center mb-6">Ecomvera 24-Hour Return & Exchange Policy</h1>
       <p className="mb-6">
-        At Silkyester, customer satisfaction is our top priority, and we strive to provide you with the best shopping
+        At Ecomvera, customer satisfaction is our top priority, and we strive to provide you with the best shopping
         experience. However, if you are not completely satisfied with your purchase, we offer a 24-hour Return & Exchange
         Policy, under which you can request a return or exchange, provided certain conditions are met. Please read this
         policy carefully before initiating a return or exchange request.
@@ -32,7 +32,7 @@ const Page = () => {
         <h2 className="text-2xl font-semibold mb-4">2. Order Cancellation Process</h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            If you wish to cancel your order, you must do so within 24 hours of placing the order by visiting the Silkyester
+            If you wish to cancel your order, you must do so within 24 hours of placing the order by visiting the Ecomvera
             website portal and completing the cancellation process.
           </li>
           <li>
@@ -51,8 +51,8 @@ const Page = () => {
         <ol className="list-decimal pl-6 space-y-2">
           <li>
             <strong>Initiate a Request:</strong> Contact us by emailing{" "}
-            <a href="mailto:privacy@silkyester.com" className="text-blue-500 hover:underline">
-              privacy@silkyester.com
+            <a href="mailto:privacy@ecomvera.com" className="text-blue-500 hover:underline">
+              privacy@ecomvera.com
             </a>{" "}
             {/* or calling{" "}
             <a href="tel:6399269102" className="text-blue-500 hover:underline">
@@ -91,7 +91,7 @@ const Page = () => {
             original payment method.
           </li>
           <li>
-            <strong>Shipping Costs:</strong> If the return is due to a Silkyester error (wrong or damaged product sent), we
+            <strong>Shipping Costs:</strong> If the return is due to a Ecomvera error (wrong or damaged product sent), we
             will cover the return shipping costs. Otherwise, the customer will be responsible for the return shipping
             charges.
           </li>
@@ -109,7 +109,7 @@ const Page = () => {
           <li>Refunds will be processed only after the product is received and inspected by our team.</li>
           <li>Any return or exchange request beyond 24 hours of delivery will not be entertained.</li>
           <li>
-            If a customer repeatedly requests returns or exchanges, Silkyester reserves the right to refuse future return or
+            If a customer repeatedly requests returns or exchanges, Ecomvera reserves the right to refuse future return or
             exchange requests.
           </li>
         </ul>

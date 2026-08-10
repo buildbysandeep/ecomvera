@@ -19,8 +19,8 @@ import HydrateZustand from "@/components/Shared/HydrateZustand ";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Silkyester",
-  description: "Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Silkyester",
+  title: "Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Ecomvera",
+  description: "Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Ecomvera",
   icons: {
     icon: "assets/hindi_logo.png",
     shortcut: "assets/hindi_logo.png",
@@ -38,14 +38,14 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Silkyester</title>
+        <title>Online Shopping for Men, Women & Kids - Fashion & Lifestyle | Ecomvera</title>
         <meta
           name="description"
-          content="Shop the latest fashion trends for Men, Women & Kids at Silkyester. Discover stylish clothing, accessories, and lifestyle products with the best deals & fast delivery!"
+          content="Shop the latest fashion trends for Men, Women & Kids at Ecomvera. Discover stylish clothing, accessories, and lifestyle products with the best deals & fast delivery!"
         />
         <meta
           name="keywords"
-          content="online shopping, fashion marketplace, buy clothes online, men's fashion, women's clothing, kids wear, trendy outfits, stylish apparel, fashion accessories, lifestyle products, best fashion deals, Silkyester fashion, fast delivery shopping"
+          content="online shopping, fashion marketplace, buy clothes online, men's fashion, women's clothing, kids wear, trendy outfits, stylish apparel, fashion accessories, lifestyle products, best fashion deals, Ecomvera fashion, fast delivery shopping"
         />
         <meta name="fast2sms" content="dg16YysIJwRjCRm3x2GE9tgyXGbbCvoJ" />
         <meta name="google-site-verification" content="-bzPbS_JoX_bTdLtuzEWjMwHfCj9YwROyi7PTqtH1q8" />

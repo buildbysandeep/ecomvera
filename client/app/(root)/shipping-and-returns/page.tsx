@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Shipping and Return Policy | Silkyester",
+  title: "Shipping and Return Policy | Ecomvera",
   alternates: {
-    canonical: "https://www.silkyester.com/shipping-returns",
+    canonical: "https://www.ecomvera.com/shipping-returns",
   },
 };
 
@@ -17,8 +17,7 @@ export default function ShippingReturn() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Shipping Policy</h2>
           <p className="text-gray-700 mb-4">
-            At <span className="font-semibold">Silkyester</span>, we are committed to delivering your order quickly and
-            safely.
+            At <span className="font-semibold">Ecomvera</span>, we are committed to delivering your order quickly and safely.
           </p>
 
           <div className="space-y-3">
@@ -59,8 +58,8 @@ export default function ShippingReturn() {
             <ul className="list-disc list-inside space-y-2">
               <li>
                 Request a Return: Log in to our website{" "}
-                <a href="https://www.silkyester.com" className="text-blue-600 hover:underline">
-                  www.silkyester.com
+                <a href="https://www.ecomvera.com" className="text-blue-600 hover:underline">
+                  www.ecomvera.com
                 </a>{" "}
                 and fill out the 'Return Request' form.
               </li>

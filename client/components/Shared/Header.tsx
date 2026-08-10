@@ -48,7 +48,7 @@ const Header = () => {
           <div className="flex justify-between gap-3 items-center">
             <div className="flex gap-4">
               <HeadLink href="/about-us" label="About" />
-              <HeadLink href="https://blog.silkyester.com" label="Blog" />
+              <HeadLink href="https://blog.ecomvera.com" label="Blog" />
             </div>
             <div className="flex gap-4">
               <HeadLink href="/contact-us" label="Contact" />
@@ -65,7 +65,7 @@ const Header = () => {
               onClick={() => setIsSidebarOpen(true)}
             />
             <Link href={"/"} className="z-20 overflow-hidden">
-              {/* <h2 className="text-xl tablet:text-2xl font-bold uppercase tracking-wide">Silkyester</h2> */}
+              {/* <h2 className="text-xl tablet:text-2xl font-bold uppercase tracking-wide">Ecomvera</h2> */}
               <Image
                 src="/assets/logo_text.png"
                 alt="logo"

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Terms and Conditions | Silkyester",
+  title: "Terms and Conditions | Ecomvera",
   alternates: {
     canonical: "",
   },
@@ -11,11 +11,10 @@ const TermsAndConditions = () => {
       <h1 className="text-3xl font-bold mb-4">Terms and Conditions</h1>
       <p className="mb-4">
         This website (
-        <a href="https://www.silkyester.com" className="text-blue-500">
-          www.silkyester.com
+        <a href="https://www.ecomvera.com" className="text-blue-500">
+          www.ecomvera.com
         </a>
-        ) is operated by Silkyester. The terms "we," "our," and "us" refer to Silkyester, registered at the following
-        address:
+        ) is operated by Ecomvera. The terms "we," "our," and "us" refer to Ecomvera, registered at the following address:
       </p>
       <p className="mb-4 font-semibold">Address:</p>
       <p className="mb-4">

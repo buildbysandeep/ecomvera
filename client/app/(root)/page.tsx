@@ -16,18 +16,18 @@ export default async function Home() {
   const hadJSON = {
     "@context": "https://schema.org",
     "@type": "ClothingStore",
-    name: "Silkyester",
-    url: "https://silkyester.com/",
-    logo: "https://silkyester.com/logo.png",
+    name: "Ecomvera",
+    url: "https://ecomvera.com/",
+    logo: "https://ecomvera.com/logo.png",
     description:
-      "Silkyester offers premium shirts & t-shirts with same-day delivery. Shop the latest fashion trends at unbeatable prices.",
+      "Ecomvera offers premium shirts & t-shirts with same-day delivery. Shop the latest fashion trends at unbeatable prices.",
     sameAs: [
-      "https://www.instagram.com/silkyester",
-      "https://www.facebook.com/silkyester",
-      "https://www.youtube.com/c/silkyester",
-      "https://twitter.com/silkyester",
-      "https://www.linkedin.com/company/silkyester",
-      "https://www.pinterest.com/silkyester",
+      "https://www.instagram.com/ecomvera",
+      "https://www.facebook.com/ecomvera",
+      "https://www.youtube.com/c/ecomvera",
+      "https://twitter.com/ecomvera",
+      "https://www.linkedin.com/company/ecomvera",
+      "https://www.pinterest.com/ecomvera",
     ],
     contactPoint: {
       "@type": "ContactPoint",

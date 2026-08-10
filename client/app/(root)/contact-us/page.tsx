@@ -2,9 +2,9 @@ import { StructuredData } from "@/components/structured-data";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata = {
-  title: "Contact Us | Silkyester",
+  title: "Contact Us | Ecomvera",
   alternates: {
-    canonical: "https://www.silkyester.com/contact-us",
+    canonical: "https://www.ecomvera.com/contact-us",
   },
 };
 
@@ -12,9 +12,9 @@ export default function ContactUs() {
   const hadJSON = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Silkyester",
-    url: "https://www.silkyester.com",
-    logo: "https://www.silkyester.com/logo.png",
+    name: "Ecomvera",
+    url: "https://www.ecomvera.com",
+    logo: "https://www.ecomvera.com/logo.png",
     contactPoint: [
       {
         "@type": "ContactPoint",
@@ -33,12 +33,12 @@ export default function ContactUs() {
       addressCountry: "IN",
     },
     sameAs: [
-      "https://www.instagram.com/Silkyester",
-      "https://www.facebook.com/Silkyester",
-      "https://www.youtube.com/@Silkyester",
-      "https://twitter.com/Silkyester",
-      "https://www.linkedin.com/company/silkyester",
-      "https://www.pinterest.com/Silkyester",
+      "https://www.instagram.com/Ecomvera",
+      "https://www.facebook.com/Ecomvera",
+      "https://www.youtube.com/@Ecomvera",
+      "https://twitter.com/Ecomvera",
+      "https://www.linkedin.com/company/ecomvera",
+      "https://www.pinterest.com/Ecomvera",
     ],
   };
   return (
@@ -61,7 +61,7 @@ export default function ContactUs() {
               </div>
               <div className="">
                 <Mail className="text-blue-500" />
-                <p className="text-gray-700 mt-2">infosilkyester@gmail.com</p>
+                <p className="text-gray-700 mt-2">infoecomvera@gmail.com</p>
               </div>
               <div className="">
                 <Phone className="text-blue-500" />

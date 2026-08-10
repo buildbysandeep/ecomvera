@@ -9,7 +9,7 @@ export const payuClient = new PayU(
     key,
     salt,
   },
-  process.env.PAYU_MODE
+  process.env.PAYU_MODE,
 );
 
 // change as per product id or order id
@@ -47,7 +47,7 @@ export const CreateTransaction = async ({
   // Calculate the hash
   const hash = crypto.createHash("sha512").update(hashString).digest("hex");
 
-  const url = process.env.NODE_ENV === "development" ? "http://localhost:3010" : "https://admin.silkyester.com";
+  const url = process.env.NODE_ENV === "development" ? "http://localhost:3010" : "https://admin.ecomvera.com";
 
   const data = await payuClient.paymentInitiate({
     isAmountFilledByCustomer: false,
