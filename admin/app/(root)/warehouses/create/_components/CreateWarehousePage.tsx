@@ -47,7 +47,7 @@ const CreateWarehousePage = () => {
     onSubmit: async (values) => {
       try {
         formik.isSubmitting = true;
-        const res = await addWareHouse(values);
+        const res = await addWareHouse({ ...values, pincode: Number(values.pincode) });
         if (!res?.ok) {
           error(res?.error || "Something went wrong");
           return;
