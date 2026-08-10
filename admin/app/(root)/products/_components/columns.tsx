@@ -39,7 +39,10 @@ export const columns: ColumnDef<IProduct>[] = [
             </AvatarFallback>
           </Avatar>
           <div className="min-w-0 flex-1">
-            <Link href={`/p/${product.slug}`} className="font-medium text-foreground hover:text-primary transition-colors">
+            <Link
+              href={`/product/${product.slug}`}
+              className="font-medium text-foreground hover:text-primary transition-colors"
+            >
               {product.name}
             </Link>
             <p className="text-sm text-muted-foreground truncate">SKU: {product.sku || "N/A"}</p>
