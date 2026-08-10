@@ -39,7 +39,7 @@ const Page = () => {
   const { cart, setCart, isLoading: cartLoading, totalMRP, totalPrice, finalPrice } = useData();
   const { deliveryCost, freeDeliveryAt } = useDataStore();
   const [loading, setLoading] = React.useState(false);
-  const [paymentMode, setPaymentMode] = React.useState<"PREPAID" | "COD">("PREPAID");
+  const [paymentMode, setPaymentMode] = React.useState<"PREPAID" | "COD">("COD");
   const [deliveryAddress, setDeliveryAddress] = React.useState<IAddress | null>(null);
   const [missingItems, setMissingItems] = React.useState<{ productId: string; availableQuantity: number }[]>([]);
   const [currentItem, setCurrentItem] = React.useState(1);
@@ -234,7 +234,7 @@ const Page = () => {
         {/* <PaymentDetails /> */}
       </div>
 
-      <Loader />
+      {/* <Loader /> */}
     </div>
   );
 };
@@ -425,17 +425,17 @@ const DeliveryDetails = ({
                   <div
                     key={mode}
                     className="flex gap-2 w-full items-center hover:bg-accent p-2 cursor-pointer"
-                    onClick={() => setPaymentMode(mode as "PREPAID" | "COD")}
+                    onClick={() => mode === "COD" && setPaymentMode(mode as "PREPAID" | "COD")}
                   >
                     <RadioGroupItem value={mode} id={mode}>
                       {mode}
                     </RadioGroupItem>
                     <Label htmlFor={mode} className="text-sm">
                       {mode === "PREPAID" ? (
-                        <>
-                          Online
-                          <span className="text-xs ml-2">(UPI, Credit/Debit Card, Netbanking, etc)</span>
-                        </>
+                        <div className="cursor-not-allowed text-gray-500">
+                          Razorpay
+                          <span className="text-xs ml-2">(Not Configured)</span>
+                        </div>
                       ) : (
                         "Cash On Delivery"
                       )}
