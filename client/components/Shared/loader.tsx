@@ -15,8 +15,11 @@ const Loader = () => {
               sizes="100vw"
               className="w-[78px] h-[94%] ml-[5px]  mt-[2px] absolute left-0"
             />
+            <h1 className="absolute top-1/2 left-[34%] -translate-x-1/2 -translate-y-1/2 text-sm text-white font-bold">
+              Ecomvera
+            </h1>
             {/* <Image
-              src="/assets/logo_text.png"
+              src="/assets/logo_200x200.png"
               alt="truck"
               width={0}
               height={0}

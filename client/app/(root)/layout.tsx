@@ -15,6 +15,7 @@ import Others from "../fonts/others";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { fetchISR, getData } from "@/lib/utils";
 import HydrateZustand from "@/components/Shared/HydrateZustand ";
+import Loader from "@/components/Shared/loader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -54,7 +55,13 @@ export default async function RootLayout({
         className={`${Others.logoFont} ${Fonts.Thin} ${Fonts.ExtraLight} ${Fonts.Light} ${Fonts.Regular} ${Fonts.Medium} ${Fonts.SemiBold} ${Fonts.Bold} ${Fonts.ExtraBold} ${Fonts.Black} antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense
+            fallback={
+              <div className="flex justify-center items-center h-screen">
+                <Loader />
+              </div>
+            }
+          >
             <div className="!scroll-smooth select-none relative bg-[--white] text-[--black]">
               <HydrateZustand categories={categories} />
               <LoadingScreen />
