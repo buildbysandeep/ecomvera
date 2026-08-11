@@ -4,13 +4,15 @@ import crypto from "crypto";
 const key = process.env.PAYU_MERCHANT_KEY;
 const salt = process.env.PAYU_MERCHANT_SALT;
 
-export const payuClient = new PayU(
-  {
-    key,
-    salt,
-  },
-  process.env.PAYU_MODE,
-);
+// export const payuClient = new PayU(
+//   {
+//     key,
+//     salt,
+//   },
+//   process.env.PAYU_MODE,
+// );
+
+const payuClient = {} as any;
 
 // change as per product id or order id
 
