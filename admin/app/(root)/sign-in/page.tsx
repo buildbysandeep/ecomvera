@@ -75,6 +75,8 @@ const SignIn = () => {
             <button type="submit" className="flip-card__btn" onClick={handleSubmit}>
               Let`s go!
             </button>
+
+            <p className="text-sm font-mono">Dummy credentials: ecomvera/G2uado3zg</p>
           </div>
         </div>
       </div>
