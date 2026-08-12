@@ -142,7 +142,7 @@ const ProductDetail = ({
         {data.category?.parent?.name} / {data.category?.name}
       </div>
 
-      <Link href={`/edit-product/${data.slug}?path=/p/${data.slug}`}>
+      <Link href={`/edit-product/${data.slug}?path=/product/${data.slug}`}>
         <Button variant="outline" size="sm" className="mr-2 text-lg border-blue-700">
           Edit
         </Button>
@@ -200,7 +200,7 @@ const ProductDetail = ({
                 </div>
                 {size.quantity && <p className="text-xs font-semibold">{size.quantity} Left</p>}
               </div>
-            )
+            ),
         )}
       </div>
       {selectedSize && selectedSize.productColor === currentColor && (

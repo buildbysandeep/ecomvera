@@ -178,7 +178,7 @@ export const columns: ColumnDef<IProduct>[] = [
             <DropdownMenuLabel>Actions</DropdownMenuLabel>
             <DropdownMenuSeparator />
 
-            <Link href={`/p/${product.slug}`}>
+            <Link href={`/product/${product.slug}`}>
               <DropdownMenuItem className="cursor-pointer">
                 <Eye className="mr-2 h-4 w-4" />
                 View Details

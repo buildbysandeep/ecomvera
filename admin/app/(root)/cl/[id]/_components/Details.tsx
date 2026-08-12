@@ -50,7 +50,7 @@ const Details = ({ id, collection, products }: { id: string; collection: ICollec
       addedProducts.some((item2) => {
         // @ts-ignore
         return item2[key] === item1[key];
-      })
+      }),
     );
   }
 
@@ -320,7 +320,7 @@ const Details = ({ id, collection, products }: { id: string; collection: ICollec
 
               {addedProducts?.map((product: IProduct) => (
                 <CommandItem key={product.id} className="flex justify-between items-center">
-                  <Link href={`/p/${product.slug}`} className="text-[15px]">
+                  <Link href={`/product/${product.slug}`} className="text-[15px]">
                     {product.name}
                   </Link>
                   <MdDeleteOutline
@@ -340,7 +340,7 @@ const Details = ({ id, collection, products }: { id: string; collection: ICollec
               <CommandEmpty>No products found.</CommandEmpty>
               {productsList?.map((product: IProduct) => (
                 <CommandItem key={product.id} className="flex justify-between items-center">
-                  <Link href={`/p/${product.slug}`} className="text-[15px]">
+                  <Link href={`/product/${product.slug}`} className="text-[15px]">
                     {product.name}
                   </Link>
                   {isProductExist(product.id as string) ? (

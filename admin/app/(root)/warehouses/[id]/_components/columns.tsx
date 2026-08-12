@@ -30,7 +30,7 @@ export const columns: ColumnDef<any>[] = [
     },
     cell: ({ row }) => (
       <div className="lowercase ml-2 tablet:ml-4">
-        <Link href={`/p/${row.original.product.slug}`}>{row.original.product.name}</Link>
+        <Link href={`/product/${row.original.product.slug}`}>{row.original.product.name}</Link>
       </div>
     ),
   },
@@ -67,7 +67,7 @@ export const columns: ColumnDef<any>[] = [
               <Link href={`/e/${row.original.product.slug}?path=/warehouses/${row.original.warehouseId}`}>
                 <DropdownMenuItem className="hover:cursor-pointer">Edit</DropdownMenuItem>
               </Link>
-              <Link href={`/p/${row.original.product.slug}`}>
+              <Link href={`/product/${row.original.product.slug}`}>
                 <DropdownMenuItem className="hover:cursor-pointer">View product details</DropdownMenuItem>
               </Link>
               <DropdownMenuItem onClick={() => {}} disabled className="hover:cursor-pointer">

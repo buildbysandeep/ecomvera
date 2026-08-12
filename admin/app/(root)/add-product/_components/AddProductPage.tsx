@@ -115,11 +115,11 @@ const AddProductPage = () => {
     success(
       "Product created successfully",
       "default",
-      <Link href={`/p/${data?.slug}`}>
+      <Link href={`/product/${data?.slug}`}>
         <Button variant="outline" size="sm" className="rounded-xl font-semibold text-black bg-transparent">
           View
         </Button>
-      </Link>
+      </Link>,
     );
   };
 
